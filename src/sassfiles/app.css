@@ -1,0 +1,48 @@
+@use "./custom" as *;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+body .mainHeading {
+  color: #732929;
+}
+
+body h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+body h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+body h5 {
+  font-weight: 500;
+}
+
+body p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--white);
+  line-height: 1.75rem;
+}
+/*# sourceMappingURL=app.css.map */
