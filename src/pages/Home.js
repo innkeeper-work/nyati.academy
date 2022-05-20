@@ -84,7 +84,11 @@ const Navbar = () => {
               <LinkedInIcon />
             </Link>
 
-            <Link to="https://www.instagram.com/nyatiacademy/" className="mx-3 mt-2" style={{ color: "#732929" }}>
+            <Link
+              to="https://www.instagram.com/nyatiacademy/"
+              className="mx-3 mt-2"
+              style={{ color: "#732929" }}
+            >
               <InstagramIcon />
             </Link>
 
@@ -167,9 +171,8 @@ const AboutSection = () => {
                 <b>Software Development</b>
               </h5>
               <p className="card-text">
-                Nyati focuses on attitude training and personal developmemt that
-                leads to improved performance at work and in the private lives
-                of the Trainees.
+                This course gives students experiennce in designing,
+                implemeting,testing and debugging large problems.
               </p>
             </div>
           </div>
@@ -188,9 +191,8 @@ const AboutSection = () => {
                 <b>Cloud Computing</b>
               </h5>
               <p className="card-text">
-                Nyati focuses on attitude training and personal developmemt that
-                leads to improved performance at work and in the private lives
-                of the Trainees
+                This course introduces students to the basics of cloud computing
+                and software development for cloud platforms.
               </p>
             </div>
           </div>
@@ -209,9 +211,9 @@ const AboutSection = () => {
                 <b>Data Analysis</b>
               </h5>
               <p className="card-text">
-                Nyati focuses on attitude training and personal developmemt that
-                leads to improved performance at work and in the private lives
-                of the Trainees
+                This course introduces students to the fundamentals of data
+                analysis, and the tools that are utilized to perform daily
+                roles.
               </p>
             </div>
           </div>
